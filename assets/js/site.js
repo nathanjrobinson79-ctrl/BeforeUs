@@ -1,4 +1,9 @@
 (() => {
+  if (window.location.hostname === 'www.beforeus.com.au') {
+    window.location.replace(`https://beforeus.com.au${window.location.pathname}${window.location.search}${window.location.hash}`);
+    return;
+  }
+
   const CONTACT_EMAIL = 'beforeusancestry@gmail.com';
   const menuButton = document.querySelector('.menu-toggle');
   const navigation = document.querySelector('.site-nav');
