@@ -50,7 +50,7 @@ Do not request sensitive identity documents or detailed information about living
 
 - The provided business contact email is `beforeusancestry@gmail.com`. Verify any other public business details and replace the privacy/form setup notices with the actual business and service information.
 - Confirm service scope, availability, turnaround estimates, pricing and applicable terms. Package descriptions intentionally do not promise a fixed price or result.
-- The sitemap and canonical URLs are configured for `https://beforeus.com.au/`; update them if the production domain changes.
+- The primary production domain is `https://beforeus.com.au/`. The sitemap and canonical URLs use this apex domain.
 - Check that image-hosting choices, form-provider terms and the privacy statement suit the business. The hero image is loaded from Unsplash and requires an internet connection.
 - Check the deployed site on current desktop and mobile browsers, and submit a test enquiry after form setup.
 
